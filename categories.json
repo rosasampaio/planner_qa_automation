@@ -1,0 +1,7 @@
+[
+    {
+      "name": "Regression",
+      "messageRegex": ".*passed.*",
+      "matchedStatuses": ["passed"]
+    }
+  ]
