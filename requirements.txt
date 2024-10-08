@@ -1,3 +1,10 @@
 selenium
 pytest-selenium
 allure-pytest
+pytest-reportlog 
+pyautogui
+pyscreeze
+pillow
+gnome-screenshot 
+opencv-python
+pyperclip
