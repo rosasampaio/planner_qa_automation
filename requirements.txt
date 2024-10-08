@@ -8,3 +8,4 @@ pillow
 gnome-screenshot 
 opencv-python
 pyperclip
+pytest-bdd

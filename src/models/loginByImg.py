@@ -13,8 +13,8 @@ class LoginByIMG:
      do login as basic credentials
     '''
     project_dir = os.getcwd()
-    img_dir_home = 'src/models/pageObjects/home/img'
-    img_dir_login = 'src/models/pageObjects/login/img'
+    img_dir_home = 'src/pageObjects/home/img'
+    img_dir_login = 'src/pageObjects/login/img'
 
      
     def do_login_by_img(self):
@@ -51,7 +51,7 @@ class LoginByIMG:
         assert 'Login Success' in page_after_redirect
         assert 'You are now logged in!' in page_after_redirect
         
-        sleep(5)
+        sleep(3)
         driver.quit()
     
     
