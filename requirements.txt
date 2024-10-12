@@ -1,11 +1,10 @@
 selenium
 pytest-selenium
-allure-pytest
 pytest-reportlog 
 pyautogui
 pyscreeze
 pillow
-gnome-screenshot 
+# gnome-screenshot  #linux
 opencv-python
 pyperclip
-pytest-bdd
+allure-pytest-bdd
